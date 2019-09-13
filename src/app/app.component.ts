@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PROJECT';
+  selected:string='recipe';
+
+  selectedFunc(event){
+this.selected = event;
+  }
+
 }
